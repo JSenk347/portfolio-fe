@@ -1,0 +1,62 @@
+.headShot img{
+    border-radius: 50%;
+    height: 45vh;
+    min-height: 165px;
+}
+.profileContainer{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+.profileText{
+    text-align: center;
+    font-size: clamp(1rem, 2.5vw, 2rem);
+    font-family: Arial, Helvetica, sans-serif
+}
+.profileText p{
+    color: rgb(78, 78, 78);
+}
+.profileTextTitle{
+    font-weight: bold;
+}
+.profileText button{
+    border: 1px solid;
+    border-radius: 2rem;
+    margin-left: 5px;
+    margin-right: 5px;
+    justify-content: center;
+    width: 7rem;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: all 300ms ease;
+    cursor: pointer;
+}
+.button1{
+    background-color: white;
+}
+.button1:hover{
+    background-color: black;
+    color: white;
+}
+.button2{
+    background-color: black;
+    color: white;
+}
+.socialsContainer{
+    margin-top:1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.socialsContainer a{
+    color: black;
+    font-size: 2rem;
+    transition: all 300ms ease;
+}
+.socialsContainer a:hover{
+    
+}

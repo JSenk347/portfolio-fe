@@ -1,10 +1,12 @@
-import Navbar from "./components/Navbar"
+import Navbar from "./components/navbar/Navbar"
+import Profile from "./components/profile/Profile"
 
 function App() {
 
   return (
     <>
       <Navbar/>
+      <Profile/>
     </>
   )
 }
