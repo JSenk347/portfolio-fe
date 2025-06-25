@@ -9,6 +9,9 @@
     justify-content: center;
     align-items: center;
     gap: 5rem;
+    margin: 1rem 5rem;
+    border-radius: 20px;
+    box-shadow: 2px 2px 7px gray; /* Consisder 10px for spread */
 }
 .profileText{
     text-align: center;

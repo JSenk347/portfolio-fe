@@ -5,8 +5,12 @@ function App() {
 
   return (
     <>
+    <section id="navbar">
       <Navbar/>
+    </section>
+    <section id="profile">
       <Profile/>
+    </section>
     </>
   )
 }

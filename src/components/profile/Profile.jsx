@@ -25,7 +25,7 @@ const Profile = () => {
                     <a href='' target="_blank">
                         <i class="fa-brands fa-instagram"></i>
                     </a>
-                    <a target="_blank" href='https://www.linkedin.com/in/jordan-senko-a48067220/?originalSubdomain=ca'>
+                    <a target="_blank" href='https://ca.linkedin.com/in/jordan-senko-a48067220'>
                         <i class="fa-brands fa-linkedin"></i>
                     </a>
                 </div>
