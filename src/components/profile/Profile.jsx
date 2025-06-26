@@ -3,7 +3,7 @@ import headShot from "../../assets/headshot.webp"
 
 const Profile = () => {
     const handleViewCV = () => {
-        window.open("/resume.pdf", "_blank");
+        window.open("/Jordan_Senko-Resume.pdf", "_blank");
     };
 
     return (
@@ -12,7 +12,7 @@ const Profile = () => {
                 <img src={headShot} alt="Jordan Senko's headshot" />
             </div>
             <div className={styles.profileText}>
-                <p> Hello, I'm </p>
+                <p> Hey, I'm </p>
                 <h1> Jordan Senko </h1>
                 <p className={styles.profileTextTitle}>Computer Science Student</p>
                 <button onClick={handleViewCV} className={styles.button1}>
