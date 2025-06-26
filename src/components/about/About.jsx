@@ -13,7 +13,7 @@ const About = () => {
                 <img src={aboutImg} />
                 <div className={styles.cardContent}>
                     <AchievementCard />
-                    <p>
+                    <p className={styles.cardParagraph}>
                         I am a Computer Science student at the University of Calgary with
                         a passion for developing innovative software solutions that solve
                         real-world problems. Proficient in Python, Java, and JavaScript,
