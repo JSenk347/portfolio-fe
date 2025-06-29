@@ -1,4 +1,4 @@
-import styles from "./AchievementCard.module.css"
+import styles from "./AchievementCard.module.css";
 
 const AchievementCard = () => {
     return(

@@ -1,5 +1,5 @@
-import styles from "./Profile.module.css"
-import headShot from "../../assets/headshot.webp"
+import styles from "./Profile.module.css";
+import headShot from "../../assets/headshot.webp";
 
 const Profile = () => {
     const handleViewCV = () => {
