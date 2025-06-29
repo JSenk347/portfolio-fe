@@ -15,12 +15,15 @@ const Profile = () => {
                 <p> Hey, I'm </p>
                 <h1> Jordan Senko </h1>
                 <p className={styles.profileTextTitle}>Computer Science Student</p>
-                <button onClick={handleViewCV} className={styles.button1}>
-                    View CV
-                </button>
-                <button className={styles.button2}>
-                    Contact Info
-                </button>
+                <div className={styles.profileButtons}>
+                    <button onClick={handleViewCV} className={styles.button1}>
+                        View CV
+                    </button>
+                    <button className={styles.button2}>
+                        Contact Info
+                    </button>
+                </div>
+
                 <div className={styles.socialsContainer}>
                     <a href='' target="_blank">
                         <i class="fa-brands fa-instagram"></i>

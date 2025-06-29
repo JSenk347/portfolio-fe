@@ -1,47 +1,41 @@
-.headShot img{
-    border-radius: 50%;
-    height: 45vh;
-    min-height: 165px;
-}
-.profileContainer{
-    height: 80vh;
+.headShot{
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 5rem;
-    margin-top: 1rem;
+}
+.headShot img{
+    height: 35vw;
+    border-radius: 50%;
+    padding: 2rem;
+}
+.profileContainer{
+    display: flex;
+    margin: 2rem 5rem;
+    justify-content: space-evenly;
+    flex-shrink: 1;
+    height: 100%;
     margin-left: 5rem;
     margin-right: 5rem;
+    margin-top: 2rem;
     margin-bottom: 8rem;
+    align-items: center;
     border-radius: 20px;
-    box-shadow: 2px 2px 7px gray; /* Consisder 10px for spread */
+    box-shadow: 2px 2px 7px gray;
 }
 .profileText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    font-size: clamp(1rem, 2.5vw, 2rem);
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding-right: 50px;
 }
 .profileText p{
     color: rgb(78, 78, 78);
 }
-.profileTextTitle{
-    font-weight: bold;
-}
-.profileText button{
-    border: 1px solid;
-    border-radius: 2rem;
-    margin-left: 5px;
-    margin-right: 5px;
-    justify-content: center;
-    width: 7rem;
-    padding: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    transition: all 300ms ease;
-    cursor: pointer;
-}
 .button1{
     background-color: white;
+    font-weight: bold;
 }
 .button1:hover{
     background-color: black;
@@ -51,18 +45,44 @@
     background-color: black;
     color: white;
 }
+.profileButtons{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 1em;
+}
+.profileButtons button{
+    padding: 1.2rem;
+    border-radius: 2em;
+    border-color: black;
+    transition: all 300ms ease;
+    cursor: pointer;
+    margin-top: 2px;
+}
+
 .socialsContainer{
     margin-top:1rem;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 1rem;
+    margin-top: 0;
+    margin-bottom: 1em
 }
 .socialsContainer a{
     color: black;
     font-size: 2rem;
     transition: all 300ms ease;
 }
-.socialsContainer a:hover{
-    
+
+@media(max-width: 768px){
+    .profileContainer{
+        flex-wrap: wrap;
+    }
+    .profileText{
+        padding-right: 0px;
+    }
 }
+
