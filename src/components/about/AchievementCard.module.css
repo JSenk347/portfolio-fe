@@ -2,10 +2,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 10rem;
+    /*min-height: 10rem;*/
     flex-direction: column;
     margin-left: 2rem;
-    width: 96%;
+    width: 60vw;
     border-radius: 20px;
     border: 1px solid rgb(170, 170, 170);
     font-family: Arial, Helvetica, sans-serif;
@@ -24,6 +24,7 @@
 .cardHeader h2{
     padding: 0;
     margin-bottom: 0.1em;
+    font-size: clamp(20px, 2vw, 23px)
 }
 .cardText{
     display: flex;
@@ -31,10 +32,19 @@
     align-items: center;
     text-align: center;
     color: rgb(78, 78, 78);
-    font-weight: 600;
+    font-weight: bold;
+    padding-bottom: 10px;;
 }
 .cardText p{
     padding: 0;
     margin-right: 2rem;
-    margin-bottom: 0
+    margin-bottom: 0;
+    font-size: clamp(14px, 1.5vw, 18px);
 }
+
+@media (max-width: 768px){ /* Tablet styling */
+    .cardContainer{
+        width: 80vw;
+        margin: 1em 2em;
+    }
+}   
