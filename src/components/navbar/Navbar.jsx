@@ -1,55 +1,54 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import styles from './Navbar.module.css';
 
 const Navbar = () => {
-    const [isOpen, setIsOpen] = useState(false);
-
-    
-    useEffect(() => {
-        document.body.classList.add("menu-open") ? isOpen : document.body.classList.remove("menu-open");
-
-        return () => {
-            document.body.classList.remove("menu-open");
-        };
-    }, [isOpen]);
+    const menuRef = useRef(null);
+    const iconRef = useRef(null);
 
     const toggleMenu = () => {
-        setIsOpen(!isOpen);
-    };
+        // isOpen needed to stop scrolling when dropdown menu is open
+        // menuRef and iconRef needed to add the open class to the associated elements (menuLinks and hamburgerIcon)
+        const isOpen = menuRef.current.classList.toggle(styles.open);
+        iconRef.current.classList.toggle(styles.open);
 
-    const scrollToSection = (sectionId, e) => {
-        //e.preventDefault();
-        setIsOpen(false); // close menu for mobile device view
-
-        const section = document.getElementById(sectionId);
-        if (section) {
-            // get nav height to offset scroll pos
-            const nav = document.querySelector(`.${styles.navContainer}`); // returns first element that matches a CSS selector
-            const navHeight = nav ? nav.offsetHeight: 0; // offsetHeight returns viewable height of an element, including all but margin
-
-            const offsetTop = section.offsetTop - navHeight;
-
-            window.scrollTo({
-                top: offsetTop,
-                behavior: 'smooth'
-            });
-        }
-    };
+        document.body.style.overflow = isOpen ? "hidden" : "auto";
+    }
 
     return (
-        <nav className={styles.navMetaContainer}>
-            <div className={styles.navContainer}>
-                <a href='#profile'>
-                    <h1 className={styles.navText}> Jordan Senko </h1>
-                </a>
-                <div className={styles.navSections}>
-                    <a href='#about'>About</a>
-                    <a href='#projects'>Projects</a>
-                    <a href='#experience'>Experience</a>
-                    <a href='#contact'>Contact</a>
+        <>
+            <nav className={styles.desktopNav}>
+                <div className={styles.navContainer}>
+                    <a href='#profile'>
+                        <h1 className={styles.dNavLogo}> Jordan Senko </h1>
+                    </a>
+                    <div className={styles.navSections}>
+                        <a href='#about'>About</a>
+                        <a href='#projects'>Projects</a>
+                        <a href='#experience'>Experience</a>
+                        <a href='#contact'>Contact</a>
+                    </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
+            <nav className={styles.hamburgerNav}>
+                <a href='#profile'>
+                    <h1 className={styles.hNavLogo}> Jordan Senko </h1>
+                </a>
+                <div className={styles.hamburgerMenu}>
+                    <div className={styles.hamburgerIcon} onClick={toggleMenu} ref={iconRef}>
+                        <span />
+                        <span />
+                        <span />
+                    </div>
+                    <div className={styles.menuLinks} ref={menuRef}>
+                        <li><a href='#about' onClick={toggleMenu}>About</a></li>
+                        <li><a href='#projects' onClick={toggleMenu}>Projects</a></li>
+                        <li><a href='#experience' onClick={toggleMenu}>Experience</a></li>
+                        <li><a href='#contact' onClick={toggleMenu}>Contact</a></li>
+                    </div>
+                </div>
+            </nav>
+        </>
+
 
     );
 }
