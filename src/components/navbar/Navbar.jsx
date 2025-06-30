@@ -11,6 +11,7 @@ const Navbar = () => {
         const isOpen = menuRef.current.classList.toggle(styles.open);
         iconRef.current.classList.toggle(styles.open);
 
+        // disables scrolling if the dropdown menu is open
         document.body.style.overflow = isOpen ? "hidden" : "auto";
     }
 
@@ -33,23 +34,19 @@ const Navbar = () => {
                 <a href='#profile'>
                     <h1 className={styles.hNavLogo}> Jordan Senko </h1>
                 </a>
-                <div className={styles.hamburgerMenu}>
-                    <div className={styles.hamburgerIcon} onClick={toggleMenu} ref={iconRef}>
-                        <span />
-                        <span />
-                        <span />
-                    </div>
-                    <div className={styles.menuLinks} ref={menuRef}>
-                        <li><a href='#about' onClick={toggleMenu}>About</a></li>
-                        <li><a href='#projects' onClick={toggleMenu}>Projects</a></li>
-                        <li><a href='#experience' onClick={toggleMenu}>Experience</a></li>
-                        <li><a href='#contact' onClick={toggleMenu}>Contact</a></li>
-                    </div>
+                <div className={styles.hamburgerIcon} onClick={toggleMenu} ref={iconRef}>
+                    <span />
+                    <span />
+                    <span />
+                </div>
+                <div className={styles.menuLinks} ref={menuRef}>
+                    <li><a href='#about' onClick={toggleMenu}>About</a></li>
+                    <li><a href='#projects' onClick={toggleMenu}>Projects</a></li>
+                    <li><a href='#experience' onClick={toggleMenu}>Experience</a></li>
+                    <li><a href='#contact' onClick={toggleMenu}>Contact</a></li>
                 </div>
             </nav>
         </>
-
-
     );
 }
 
