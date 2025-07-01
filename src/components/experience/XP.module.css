@@ -1,0 +1,11 @@
+.xpCardsContainer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+
+@media (max-width: 768px){
+    .xpCardsContainer{
+    flex-wrap: wrap;
+}
+}
