@@ -4,10 +4,10 @@ import styles from "./XP.module.css";
 const XP = () => {
     return (
         <>
-            <div className={styles.XPContainer}>
+            <div className={styles.xpContainer}>
                 <div className={styles.headerContainer}>
                     <p>Explore My</p>
-                    <h1>Experinece</h1>
+                    <h1>Experience</h1>
                 </div>
                 <div className={styles.xpCardsContainer}>
                     <XPCard

@@ -13,7 +13,7 @@ const Profile = () => {
             </div>
             <div className={styles.profileText}>
                 <p> Hey, I'm </p>
-                <h1> Jordan Senko </h1>
+                <h2> Jordan Senko </h2>
                 <p className={styles.profileTextTitle}>Computer Science Student</p>
                 <div className={styles.profileButtons}>
                     <button onClick={handleViewCV} className={styles.button1}>
