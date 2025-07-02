@@ -1,0 +1,89 @@
+.xpCardContainer {
+    border-radius: 20px;
+    border: 2px solid rgb(151, 151, 151);
+    margin: 10px;
+    width: 50%;
+}
+
+.xpCardContainer h2 {
+    text-align: center;
+    font-weight: 500;
+    color: rgb(151, 151, 151);
+}
+
+.skillsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    padding-bottom: 20px;
+    gap: 2rem;
+}
+
+.skill {
+    list-style: none;
+    /*flex: 0 1 calc(40% - 0.5rem);*/
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    min-width:15ch;
+    gap: 1rem;
+}
+
+.skill li {
+    font-size: 20px;
+}
+
+.skill i {
+    font-size: 25px;
+}
+
+/* Tablet Styling */
+@media (max-width: 768px) {
+    .xpCardContainer {
+        width: 100%;
+    }
+    .skill {
+        min-width: 13ch;
+    }
+    .skill li {
+        font-size: 17px;
+    }
+}
+
+/* Mobile-L Styling */
+@media (max-width: 425px) {
+    .skill li {
+        font-size: 15px;
+    }
+
+    .skill i {
+        font-size: 20px;
+    }
+}
+
+/* Mobile-M Styling */
+@media(max-width: 375px) {
+    .skill {
+        min-width: 11ch;
+    }
+}
+
+/* Mobile-S Styling */
+@media(max-width: 320px) {
+    .xpCardContainer h2 {
+        font-size: 20px;
+    }
+    .skill {
+        min-width: 30vw;
+    }
+
+    .skill li {
+        font-size: 12px;
+    }
+
+    .skill i {
+        font-size: 17px;
+    }
+}

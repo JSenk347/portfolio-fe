@@ -13,7 +13,7 @@ const Profile = () => {
             </div>
             <div className={styles.profileText}>
                 <p> Hey, I'm </p>
-                <h1> Jordan Senko </h1>
+                <h2> Jordan Senko </h2>
                 <p className={styles.profileTextTitle}>Computer Science Student</p>
                 <div className={styles.profileButtons}>
                     <button onClick={handleViewCV} className={styles.button1}>
@@ -26,10 +26,10 @@ const Profile = () => {
 
                 <div className={styles.socialsContainer}>
                     <a href='' target="_blank">
-                        <i class="fa-brands fa-instagram"></i>
+                        <i className="fa-brands fa-instagram"></i>
                     </a>
                     <a target="_blank" href='https://ca.linkedin.com/in/jordan-senko-a48067220'>
-                        <i class="fa-brands fa-linkedin"></i>
+                        <i className="fa-brands fa-linkedin"></i>
                     </a>
                 </div>
             </div>

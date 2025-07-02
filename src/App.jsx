@@ -1,6 +1,7 @@
-import Navbar from "./components/navbar/Navbar"
-import Profile from "./components/profile/Profile"
-import About from "./components/about/About"
+import Navbar from "./components/navbar/Navbar";
+import Profile from "./components/profile/Profile";
+import About from "./components/about/About";
+import XP from "./components/experience/XP";
 
 function App() {
 
@@ -14,6 +15,9 @@ function App() {
     </section>
     <section id="about">
       <About/>
+    </section>
+    <section id="experience">
+      <XP/>
     </section>
     </>
   )

@@ -5,7 +5,7 @@ const AchievementCard = () => {
         <div className={styles.cardContainer}>
             <div className={styles.cardHeader}>
                 <h2>Education</h2><br/>
-                <i class="fa-solid fa-school"></i>
+                <i className="fa-solid fa-school"></i>
             </div>
             <div className={styles.cardText}>
                 <p>B.Sc. Computer Science</p>

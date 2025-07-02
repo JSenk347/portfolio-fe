@@ -1,0 +1,54 @@
+.xpCardsContainer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+.xpContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.headerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: clamp(25px, 2.5vw, 40px);
+}
+
+.headerContainer p {
+    font-size: clamp(20px, 2.2vw, 35px);
+    color: rgb(151, 151, 151);
+    padding: 0;
+    margin: 0;
+}
+
+/* Laptop Styling (1440px) */
+@media (max-width: 1440px) {
+    .xpCardsContainer {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+
+/* Tablet Styling */
+@media (max-width: 768px) {
+    .xpCardsContainer {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+}
+
+/* Mobile-L Styling */
+@media (max-width: 425px) {
+    .xpCardsContainer {
+        flex-wrap: wrap;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
