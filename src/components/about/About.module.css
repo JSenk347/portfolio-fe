@@ -1,7 +1,7 @@
 .aboutContainer {
     margin-left: 5rem;
     margin: 5rem;
-    height: 100%;
+    height: fit-content;
     display: flex;
     flex-direction: column;
 }
@@ -36,8 +36,9 @@
     margin-top: 5%;
 }
 .cardParagraph {
-    line-height: 3vw;
+    line-height: 2;
     font-size: clamp(18px, 2vw, 22px);
+    height: fit-content;
 }
 
 @media (max-width: 768px) { /* Tablet Sizing */

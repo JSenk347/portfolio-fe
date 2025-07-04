@@ -4,6 +4,7 @@
     flex-wrap: nowrap;
     margin-left: 20vw;
     margin-right: 20vw;
+    width: 80%;
 }
 .xpContainer{
     display: flex;
