@@ -11,6 +11,23 @@
     color: rgb(151, 151, 151);
 }
 
+  /*Grid - S*/
+.skillsContainer {
+    display: grid;
+    column-gap: 3vw;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 3vw;
+    padding-bottom: 20px;
+}
+.skill {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    padding: 10px
+}
+/*Grid - E*/
+
+/* Flex Wrap - S
 .skillsContainer {
     display: flex;
     flex-wrap: wrap;
@@ -21,15 +38,16 @@
     gap: 2rem;
 }
 
+
 .skill {
     list-style: none;
-    /*flex: 0 1 calc(40% - 0.5rem);*/
     display: flex;
     align-items: center;
     font-weight: 500;
     min-width:15ch;
     gap: 1rem;
 }
+ Flex Wrap - E*/
 
 .skill li {
     font-size: 20px;
