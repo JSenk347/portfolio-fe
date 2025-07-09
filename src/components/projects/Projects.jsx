@@ -1,12 +1,16 @@
-import ProjectCard from "./project-card/ProjectCard.jsx"
+import ProjectCarousel from "./project-carousel/ProjectCarousel.jsx"
 import styles from "./Projects.module.css"
+import projects from "../../data/projects.json"
 
-const Projects = () => {
+const Projects = ({projects}) => {
     return (
         <div className={styles.projectsContainer}>
             <div className={styles.headerContainer}>
                 <p>Browse My</p>
                 <h1>Projects</h1>
+                <div className={styles.carouselContainer}>
+                    <ProjectCarsouel projects={projects}/>
+                </div>
 
                 {/* UP NEXT:
                     - Design a project card
