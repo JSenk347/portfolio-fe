@@ -1,6 +1,6 @@
 import ProjectCarousel from "./project-carousel/ProjectCarousel.jsx"
 import styles from "./Projects.module.css"
-import projects from "../../data/projects.json"
+import projectData from "../../data/projects.json"
 
 const Projects = ({projects}) => {
     return (
@@ -9,7 +9,7 @@ const Projects = ({projects}) => {
                 <p>Browse My</p>
                 <h1>Projects</h1>
                 <div className={styles.carouselContainer}>
-                    <ProjectCarsouel projects={projects}/>
+                    <ProjectCarousel projects={projectData}/>
                 </div>
 
                 {/* UP NEXT:

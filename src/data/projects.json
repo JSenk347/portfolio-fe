@@ -10,7 +10,7 @@
     },
     {
         "project-name": "Neural Net",
-        "image": "net.png",
+        "image": "nnet.png",
         "gh-repo": "portfolio-fe",
         "skills": [
             "CSS", "HTML","JavaScript","React" 

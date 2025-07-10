@@ -1,13 +1,39 @@
+import React, {useEffect} from 'react';
 import ProjectCard from "../project-card/ProjectCard";
+import useEmblaCarousel from 'embla-carousel-react';
+import Autoplay from 'embla-carousel-autoplay';
+import styles from "./ProjectCarousel.module.css";
 
-const ProjectCarousel = (props) => {
-    
+// projects surrounded with {} for OBJECT DESTRUCTURING
+const ProjectCarousel = ({projects}) => {
+    // useEmblaCarousel enable PLUGINS passed as arguments in an array. Eg: [Autoplay()]
+    const [emblaRef, emblaApi] = useEmblaCarousel({loop: false}, [Autoplay()]);
+
+    useEffect(() => {
+        if(emblaApi) {
+            console.log(emblaApi.slideNodes());
+        }
+    }, [emblaApi]);
+
     return(
-        props.projects.map(project => {
-            <ProjectCard 
-                project-name={project.project-name}
-            />
-        })
+        <div className={styles.carousel} ref={emblaRef}>
+            <div className={styles.carouselContainer}> 
+                {projects.map((project, index) => {
+                    return(
+                        <div className={styles.slide}>
+                            <ProjectCard
+                                key={index}
+                                projectName={project["project-name"]}
+                                image={project.image}
+                                ghRepo={project["gh-repo"]}
+                                skills={project.skills}
+                                description={project.description}
+                            />
+                        </div>    
+                    );
+                })}
+            </div>
+        </div>
     );
 }
 

@@ -1,0 +1,13 @@
+.carousel {
+  overflow: hidden;
+  max-width: large;
+  border: 2px solid black;
+}
+.carouselContainer {
+  display: flex;
+}
+.slide {
+  flex: 0 0 100%;
+  text-align: center;
+  min-width: 0;
+}
