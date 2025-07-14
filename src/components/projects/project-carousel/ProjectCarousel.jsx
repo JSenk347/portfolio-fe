@@ -7,7 +7,7 @@ import styles from "./ProjectCarousel.module.css";
 // projects surrounded with {} for OBJECT DESTRUCTURING
 const ProjectCarousel = ({projects}) => {
     // useEmblaCarousel enable PLUGINS passed as arguments in an array. Eg: [Autoplay()]
-    const [emblaRef, emblaApi] = useEmblaCarousel({loop: false}, [Autoplay()]);
+    const [emblaRef, emblaApi] = useEmblaCarousel({loop: false});
 
     useEffect(() => {
         if(emblaApi) {
