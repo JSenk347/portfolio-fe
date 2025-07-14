@@ -26,6 +26,7 @@ const ProjectCarousel = ({projects}) => {
                                 projectName={project["project-name"]}
                                 image={project.image}
                                 ghRepo={project["gh-repo"]}
+                                liveURL={project["live-url"]}
                                 skills={project.skills}
                                 description={project.description}
                             />

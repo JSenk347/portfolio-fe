@@ -1,21 +1,39 @@
 import styles from "./ProjectCard.module.css";
 
 const ProjectCard = (props) => {
+    const isLive = Boolean(props.liveURL);
+    console.log(isLive);
     const imgPath = `/portfolio-fe/public/project-imgs/${props.image}`;
-    console.log(imgPath);
+    const ghURL = `https://github.com/JSenk347/${props.ghRepo}`;
 
-    return(
+
+    return (
         <div className={styles.cardContainer}>
             <div className={styles.imgContainer}>
-                <img src={imgPath} alt={props.projectName} title={props.projectName}/>
+                <img src={imgPath} alt={props.projectName} title={props.projectName} />
             </div>
             <h3>{props.projectName}</h3>
+            <div className={`${styles.buttonContainer} ${isLive ? "Live" : "notLive"}`}>
+                <a href={ghURL} target="_blank">
+                    <button className={styles.ghButton}>
+                        <i class="fa-brands fa-square-github"></i>
+                    </button>
+                </a>
+                {isLive && (
+                    <a href={props.liveURL} target="_blank">
+                        <button className={styles.liveButton}>
+                            <span/>
+                            <p>Live App</p>
+                        </button>
+                    </a>
+                )}
+            </div>
             <div className={styles.descContainer}>
                 <p>{props.description}</p>
             </div>
             <div className={styles.skillsContainer}>
                 {props.skills.map((skill, index) => {
-                    return(
+                    return (
                         <p>{skill}</p>
                     );
                 })}

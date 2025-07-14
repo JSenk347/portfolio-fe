@@ -3,6 +3,7 @@
         "project-name": "Portfolio",
         "image": "site.png",
         "gh-repo": "portfolio-fe",
+        "live-url": "https://portfolio-fe-liart.vercel.app/",
         "skills": [
             "CSS", "HTML","JavaScript","React" 
         ],
@@ -12,6 +13,7 @@
         "project-name": "Neural Net",
         "image": "nnet.png",
         "gh-repo": "portfolio-fe",
+        "live-url": "",
         "skills": [
             "Back Propogation", "Forward Propogation" 
         ],
