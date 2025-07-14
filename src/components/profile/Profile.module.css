@@ -34,7 +34,7 @@
 .button1{
     background-color: white;
     color: black;
-    font-weight: bold;
+    font-weight: 600;
 }
 .button1:hover{
     background-color: black;
@@ -43,6 +43,7 @@
 .button2{
     background-color: black;
     color: white;
+    font-weight: 600
 }
 .profileButtons{
     width: 100%;
@@ -59,7 +60,7 @@
     transition: all 300ms ease;
     cursor: pointer;
     margin-top: 2px;
-    /*font-family: "Poppins", Arial, Helvetica, sans-serif;*/
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
     font-size: clamp(12px, 1.3vw, 15px);
 }
 

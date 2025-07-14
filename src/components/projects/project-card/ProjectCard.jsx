@@ -16,14 +16,14 @@ const ProjectCard = (props) => {
             <div className={`${styles.buttonContainer} ${isLive ? "Live" : "notLive"}`}>
                 <a href={ghURL} target="_blank">
                     <button className={styles.ghButton}>
-                        <i class="fa-brands fa-square-github"></i>
+                        GitHub Repo
                     </button>
                 </a>
                 {isLive && (
                     <a href={props.liveURL} target="_blank">
                         <button className={styles.liveButton}>
                             <span/>
-                            <p>Live App</p>
+                            Live App
                         </button>
                     </a>
                 )}

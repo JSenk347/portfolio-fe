@@ -30,3 +30,33 @@
     border-radius: 50px;
     padding: 1px 8px;
 }
+.buttonContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 1em;
+}
+.buttonContainer button{
+    padding: 1.2rem;
+    border-radius: 2em;
+    font-family: "Poppins";
+    font-size: clamp(12px, 1.3vw, 15px);
+    color: white;
+    background-color: black;
+    font-weight: 600;
+}
+@keyframes glow{
+    from{text-shadow: -2px 0px 5px purple, 2px 0px 5px purple, 0px -2px 5px purple}
+    to{text-shadow: none}
+}
+.liveButton{
+    animation: glow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-play-state: running;
+}
+
