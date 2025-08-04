@@ -1,12 +1,13 @@
 
 .cardContainer{
-    border: solid 2px gray;
     display: flex;
     flex-direction: column;
     justify-content: center;
     max-width: 50%;
     height: 80%;
     padding: 40px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 7px gray;
 }
 .imgContainer{
     display: flex;
@@ -39,24 +40,24 @@
     margin-bottom: 1em;
 }
 .buttonContainer button{
-    padding: 1.2rem;
+    padding: .8rem;
     border-radius: 2em;
     font-family: "Poppins";
     font-size: clamp(12px, 1.3vw, 15px);
-    color: white;
-    background-color: black;
     font-weight: 600;
+    cursor: pointer;
 }
-@keyframes glow{
-    from{text-shadow: -2px 0px 5px purple, 2px 0px 5px purple, 0px -2px 5px purple}
-    to{text-shadow: none}
+.ghButton{
+    background-color: black;
+    color: white;
 }
 .liveButton{
-    animation: glow;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease;
-    animation-delay: 0s;
-    animation-play-state: running;
+    background-color: white;
+    color: black;
+    transition: all 300ms ease;
+}
+.liveButton:hover{
+    background-color: black;
+    color: white;
 }
 

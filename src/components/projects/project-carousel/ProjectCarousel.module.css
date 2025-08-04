@@ -1,7 +1,6 @@
 .carousel {
   overflow: hidden;
   max-width: large;
-  border: 2px solid black;
 }
 .carouselContainer {
   display: flex;

@@ -22,7 +22,6 @@ const ProjectCard = (props) => {
                 {isLive && (
                     <a href={props.liveURL} target="_blank">
                         <button className={styles.liveButton}>
-                            <span/>
                             Live App
                         </button>
                     </a>

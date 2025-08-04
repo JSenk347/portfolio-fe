@@ -2,17 +2,18 @@ import ProjectCarousel from "./project-carousel/ProjectCarousel.jsx"
 import styles from "./Projects.module.css"
 import projectData from "../../data/projects.json"
 
-const Projects = ({projects}) => {
+const Projects = ({ projects }) => {
     return (
         <div className={styles.projectsContainer}>
             <div className={styles.headerContainer}>
                 <p>Browse My</p>
                 <h1>Projects</h1>
-                <div className={styles.carouselContainer}>
-                    <ProjectCarousel projects={projectData}/>
-                </div>
+            </div>
+            <div className={styles.carouselContainer}>
+                <ProjectCarousel projects={projectData} />
+            </div>
 
-                {/* UP NEXT:
+            {/* UP NEXT:
                     - Design a project card
                         - Figure out how a "sneaky window" would work after clicking a projects to view it  
                     - Place the projectCards in a carasoul
@@ -20,7 +21,6 @@ const Projects = ({projects}) => {
                         - See resources for reading a json file in JS
                     - 
                 */}
-            </div>
         </div>
     );
 }
