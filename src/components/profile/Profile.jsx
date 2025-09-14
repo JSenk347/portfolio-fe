@@ -3,7 +3,7 @@ import headShot from "../../assets/headShot.webp";
 
 const Profile = () => {
     const handleViewCV = () => {
-        window.open("/Jordan_Senko-Resume.pdf", "_blank");
+        window.open("/portfolio-fe/Jordan_Senko-Resume.pdf", "_blank");
     };
 
     return (

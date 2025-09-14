@@ -1,14 +1,19 @@
 .projectsContainer{
     height: 100vh;
+    margin: 0;
 }
 
 .headerContainer{
-    height: 20vh;
+    height: 15vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 2rem;
     font-size: clamp(25px, 2.5vw, 40px);
+}
+
+.headerContainer h1{
+    margin: 0;
 }
 
 .headerContainer p {
