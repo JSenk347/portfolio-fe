@@ -4,8 +4,8 @@
     flex-direction: column;
     justify-content: center;
     max-width: 50%;
-    height: 80%;
-    padding: 40px;
+    
+    padding: 30px;
     border-radius: 20px;
     box-shadow: 2px 2px 7px gray;
 }
@@ -14,22 +14,27 @@
     justify-content: center;
 }
 .cardContainer img{
-    width: 30vw;
+    border-radius: 8px;
+    height: 20vh;
     padding-bottom: 0vh;
 }
 .descContainer{
     text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .skillsContainer{
     display: flex;
     flex-wrap: wrap;
-    gap: 10px
+    padding-top: 15px;
+    gap: 5px;
 }
 .skillsContainer p{
     font-size: 12px;
     border: solid 2px gray;
     border-radius: 50px;
     padding: 1px 8px;
+    margin: 0;
 }
 .buttonContainer {
     width: 100%;
@@ -37,7 +42,7 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
-    margin-bottom: 1em;
+    margin-bottom: 0.1em;
 }
 .buttonContainer button{
     padding: .8rem;

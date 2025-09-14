@@ -3,7 +3,7 @@ import styles from "./ProjectCard.module.css";
 const ProjectCard = (props) => {
     const isLive = Boolean(props.liveURL);
     console.log(isLive);
-    const imgPath = `/portfolio-fe/public/project-imgs/${props.image}`;
+    const imgPath = `portfolio-fe/project-imgs/${props.image}`;
     const ghURL = `https://github.com/JSenk347/${props.ghRepo}`;
 
 

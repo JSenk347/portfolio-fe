@@ -18,5 +18,15 @@
             "Back Propogation", "Forward Propogation" 
         ],
         "description": "This is some random text I am putting in so that it looks like there is actually something when in reality there is nothing atm but i will keep on typing like there is because I need this text to be long enough so that I can test multiple cases at the same time so that is very nice and I think that this can probably end now so let's do that."
+    },
+    {
+        "project-name":"Album Picker",
+        "image": "albumPicker.png",
+        "gh-repo": "album-picker",
+        "live-url": "https://album-picker-ten.vercel.app/",
+        "skills": [
+            "CSS", "HTML", "JavaScript","React", "React-Bootstrap", "API"
+        ],
+        "description": "The focus of this project was to get comfortable with API's. I chose the Spotify API becuase I am listening to music whenever it is appropriate to do so, and someones even when it's not. To complete this project I learnt about standard API call practices and presenting the data from a JSON in a structured format"
     }
 ]
