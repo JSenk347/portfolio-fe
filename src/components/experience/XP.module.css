@@ -1,10 +1,8 @@
 .xpCardsContainer {
     display: flex;
-    justify-content: space-evenly;
+    justify-content:center;
     align-content: center;
-    flex-wrap: nowrap;
-    margin-left: 15vw;
-    margin-right: 15vw;
+    flex-wrap: no-wrap;
     width: 80%;
 }
 .xpContainer{
@@ -53,8 +51,13 @@
 }
 
 /* Mobile-L Styling */
-@media screen and (max-width: 424px) {
+@media screen and (max-width: 425px) {
     .xpCardsContainer {
         flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 4000px) {
+    .xpCardsContainer {
+        width: 1500px;
     }
 }
