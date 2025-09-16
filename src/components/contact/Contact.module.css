@@ -29,3 +29,12 @@
     padding: 20px;
     border-radius: 20px;
 }
+.buttonContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+.buttonContainer i{
+    font-size: large;
+}
