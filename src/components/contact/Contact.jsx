@@ -8,12 +8,20 @@ function Contact() {
                 <h1>Contact Me</h1>
             </div>
             <div className={styles.linkContainer}>
-                <a href="mailto: jsenk347@mtroyal.ca">
-                    jsenk347@mtroyal.ca
-                </a>
-                <a href="https://ca.linkedin.com/in/jordan-senko-a48067220">
-                    Linkedin
-                </a>
+                <div className={styles.emailContaienr}>
+                    <i class="fa-solid fa-envelope"></i>
+                    <a href="mailto: jsenk347@mtroyal.ca">
+                        jsenk347@mtroyal.ca
+                    </a>
+                </div>
+
+                <div className={styles.linkedinContainer}>
+                    <i class="fa-solid fa-envelope"></i>
+                    <a href="https://ca.linkedin.com/in/jordan-senko-a48067220">
+                        Linkedin
+                    </a>
+                </div>
+
             </div>
         </div>
     );

@@ -26,7 +26,7 @@ const Profile = () => {
 
                 <div className={styles.socialsContainer}>
                     <a href='' target="_blank">
-                        <i className="fa-brands fa-instagram"></i>
+                        <i className="fa-brands fa-github"></i>
                     </a>
                     <a target="_blank" href='https://ca.linkedin.com/in/jordan-senko-a48067220'>
                         <i className="fa-brands fa-linkedin"></i>
