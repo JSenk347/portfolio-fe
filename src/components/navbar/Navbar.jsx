@@ -24,8 +24,8 @@ const Navbar = () => {
                     </a>
                     <div className={styles.navSections}>
                         <a href='#about'>About</a>
-                        <a href='#projects'>Projects</a>
                         <a href='#experience'>Experience</a>
+                        <a href='#projects'>Projects</a>
                         <a href='#contact'>Contact</a>
                     </div>
                 </div>
@@ -41,8 +41,8 @@ const Navbar = () => {
                 </div>
                 <div className={styles.menuLinks} ref={menuRef}>
                     <li><a href='#about' onClick={toggleMenu}>About</a></li>
-                    <li><a href='#projects' onClick={toggleMenu}>Projects</a></li>
                     <li><a href='#experience' onClick={toggleMenu}>Experience</a></li>
+                    <li><a href='#projects' onClick={toggleMenu}>Projects</a></li>
                     <li><a href='#contact' onClick={toggleMenu}>Contact</a></li>
                 </div>
             </nav>

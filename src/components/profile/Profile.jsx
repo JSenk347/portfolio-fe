@@ -20,12 +20,15 @@ const Profile = () => {
                         View CV
                     </button>
                     <button className={styles.button2}>
-                        Contact Info
+                        <a href="#contact">
+                            Contact Info
+                        </a>
+
                     </button>
                 </div>
 
                 <div className={styles.socialsContainer}>
-                    <a href='' target="_blank">
+                    <a href='https://github.com/JSenk347' target="_blank">
                         <i className="fa-brands fa-github"></i>
                     </a>
                     <a target="_blank" href='https://ca.linkedin.com/in/jordan-senko-a48067220'>

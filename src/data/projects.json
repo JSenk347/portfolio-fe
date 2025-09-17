@@ -7,17 +7,7 @@
         "skills": [
             "CSS", "HTML","JavaScript","React", "Vite"
         ],
-        "description": "This is some random text I am putting in so that it looks like there is actually something when in reality there is nothing atm but i will keep on typing like there is because I need this text to be long enough so that I can test multiple cases at the same time so that is very nice and I think that this can probably end now so let's do that."
-    },
-    {
-        "project-name": "Neural Net",
-        "image": "nnet.png",
-        "gh-repo": "portfolio-fe",
-        "live-url": "",
-        "skills": [
-            "Back Propogation", "Forward Propogation" 
-        ],
-        "description": "This is some random text I am putting in so that it looks like there is actually something when in reality there is nothing atm but i will keep on typing like there is because I need this text to be long enough so that I can test multiple cases at the same time so that is very nice and I think that this can probably end now so let's do that."
+        "description": "Developing this portfolio was my first time working on a web-app project. The process of learning the technologies that went into this project was highly enjoyable, leaving me feeling like the domain of my potential as a developer has expanded ten fold. I look forward to utilizing React and related technologies to make more interesting applications in the future "
     },
     {
         "project-name":"Album Picker",

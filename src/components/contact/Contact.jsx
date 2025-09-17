@@ -16,7 +16,7 @@ function Contact() {
                 </div>
                 <div className={styles.buttonContainer}>
                     <i class="fa-brands fa-linkedin"></i>
-                    <a href="https://ca.linkedin.com/in/jordan-senko-a48067220">
+                    <a href="https://ca.linkedin.com/in/jordan-senko-a48067220" target="_blank">
                         Linkedin
                     </a>
                 </div>

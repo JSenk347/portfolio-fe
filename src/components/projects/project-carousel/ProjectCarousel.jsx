@@ -2,12 +2,13 @@ import React, {useEffect} from 'react';
 import ProjectCard from "../project-card/ProjectCard";
 import useEmblaCarousel from 'embla-carousel-react';
 import Autoplay from 'embla-carousel-autoplay';
+import AutoHeight from 'embla-carousel-auto-height';
 import styles from "./ProjectCarousel.module.css";
 
 // projects surrounded with {} for OBJECT DESTRUCTURING
 const ProjectCarousel = ({projects}) => {
     // useEmblaCarousel enable PLUGINS passed as arguments in an array. Eg: [Autoplay()]
-    const [emblaRef, emblaApi] = useEmblaCarousel({loop: true}, [Autoplay()]);
+    const [emblaRef, emblaApi] = useEmblaCarousel({loop: true}, [Autoplay(), AutoHeight()]);
 
     useEffect(() => {
         if(emblaApi) {

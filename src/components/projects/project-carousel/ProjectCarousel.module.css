@@ -1,5 +1,5 @@
 .carousel {
-  overflow: hidden;
+  overflow: visible; /*May lead to overlapping of slides with Contact Section */
   max-width: large;
 }
 .carouselContainer {

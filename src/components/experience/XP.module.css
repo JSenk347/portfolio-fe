@@ -2,8 +2,8 @@
     display: flex;
     justify-content:center;
     align-content: center;
-    flex-wrap: no-wrap;
-    width: 80%;
+    max-width: 80%;
+    flex-wrap: wrap;
 }
 .xpContainer{
     display: flex;
