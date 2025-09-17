@@ -3,7 +3,7 @@ import headShot from "../../assets/headShot.webp";
 
 const Profile = () => {
     const handleViewCV = () => {
-        window.open("/Jordan_Senko-Resume.pdf", "_blank");
+        window.open("/portfolio-fe/Jordan_Senko-Resume.pdf", "_blank");
     };
 
     return (
@@ -20,13 +20,16 @@ const Profile = () => {
                         View CV
                     </button>
                     <button className={styles.button2}>
-                        Contact Info
+                        <a href="#contact">
+                            Contact Info
+                        </a>
+
                     </button>
                 </div>
 
                 <div className={styles.socialsContainer}>
-                    <a href='' target="_blank">
-                        <i className="fa-brands fa-instagram"></i>
+                    <a href='https://github.com/JSenk347' target="_blank">
+                        <i className="fa-brands fa-github"></i>
                     </a>
                     <a target="_blank" href='https://ca.linkedin.com/in/jordan-senko-a48067220'>
                         <i className="fa-brands fa-linkedin"></i>

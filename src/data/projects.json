@@ -1,0 +1,22 @@
+[
+    {
+        "project-name": "Portfolio",
+        "image": "site.png",
+        "gh-repo": "portfolio-fe",
+        "live-url": "https://portfolio-fe-liart.vercel.app/",
+        "skills": [
+            "CSS", "HTML","JavaScript","React", "Vite"
+        ],
+        "description": "Developing this portfolio was my first time working on a web-app project. The process of learning the technologies that went into this project was highly enjoyable, leaving me feeling like the domain of my potential as a developer has expanded ten fold. I look forward to utilizing React and related technologies to make more interesting applications in the future "
+    },
+    {
+        "project-name":"Album Picker",
+        "image": "albumPicker.png",
+        "gh-repo": "album-picker",
+        "live-url": "https://album-picker-ten.vercel.app/",
+        "skills": [
+            "CSS", "HTML", "JavaScript","React", "React-Bootstrap", "API"
+        ],
+        "description": "The focus of this project was to get comfortable with API's. I chose the Spotify API becuase I am listening to music whenever it is appropriate to do so, and someones even when it's not. To complete this project I learnt about standard API call practices and presenting the data from a JSON in a structured format"
+    }
+]

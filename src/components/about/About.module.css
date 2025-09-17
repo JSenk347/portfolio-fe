@@ -1,6 +1,8 @@
 .aboutContainer {
     margin-left: 5rem;
-    margin: 5rem;
+    margin-right: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 0;
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -11,6 +13,7 @@
     align-items: center;
     text-align: center;
     justify-content: center;
+    margin-bottom: 2rem;
     font-size: clamp(25px, 2.5vw, 40px);
 }
 .aboutHeader p {
@@ -18,6 +21,10 @@
     padding: 0;
     margin: 0;
     font-size: clamp(20px, 2.2vw, 35px);
+}
+.aboutHeader h1{
+    margin: 0;
+    padding: 0
 }
 .aboutCard {
     display: flex;

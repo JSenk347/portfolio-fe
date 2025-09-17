@@ -14,18 +14,15 @@ const About = () => {
                 <div className={styles.cardContent}>
                     <AchievementCard />
                     <p className={styles.cardParagraph}>
-                        I am a Computer Science student at the University of Calgary with
-                        a passion for developing innovative software solutions that solve
-                        real-world problems. Proficient in Python, Java, and JavaScript,
-                        I have hands-on experience with frameworks like React and Node.js,
-                        as well as cloud platforms such as AWS. My academic journey is
-                        complemented by a successful internship at a leading fintech startup,
-                        where I contributed to building scalable web applications and
-                        optimizing backend performance. I thrive in collaborative environments,
-                        value clear communication, and approach challenges with a growth
-                        mindset. Eager to launch my career as a software developer, I am
-                        seeking opportunities where I can contribute to impactful projects and
-                        continue expanding my technical expertise.
+                        I’m a Computer Science student at Mount Royal University
+                        with a strong foundation in Python, Java, and JavaScript,
+                        and hands-on experience using frameworks like React, Flask,
+                        and Node.js. My academic journey includes hackathon wins,
+                        peer tutoring, and real-world projects that blend technical
+                        skill with user-centered design. I thrive in collaborative
+                        environments, communicate clearly, and approach challenges
+                        with curiosity and grit. I’m excited to grow as a developer
+                        and contribute to impactful, well-crafted software.
                     </p>
                 </div>
 

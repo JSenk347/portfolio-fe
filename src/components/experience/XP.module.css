@@ -1,10 +1,9 @@
 .xpCardsContainer {
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: nowrap;
-    margin-left: 20vw;
-    margin-right: 20vw;
-    width: 80%;
+    justify-content:center;
+    align-content: center;
+    max-width: 80%;
+    flex-wrap: wrap;
 }
 .xpContainer{
     display: flex;
@@ -12,14 +11,20 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
+    margin-bottom: 10vh;
 }
 .headerContainer {
+    height: 40vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     justify-content: center;
     font-size: clamp(25px, 2.5vw, 40px);
+}
+
+.headerContainer h1{
+    margin: 0;
 }
 
 .headerContainer p {
@@ -46,10 +51,13 @@
 }
 
 /* Mobile-L Styling */
-@media (max-width: 425px) {
+@media screen and (max-width: 425px) {
     .xpCardsContainer {
         flex-wrap: wrap;
-        margin-left: 20px;
-        margin-right: 20px;
+    }
+}
+@media screen and (max-width: 4000px) {
+    .xpCardsContainer {
+        width: 1500px;
     }
 }

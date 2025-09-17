@@ -1,0 +1,66 @@
+.cardContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 50%;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 7px gray;
+}
+.imgContainer{
+    display: flex;
+    justify-content: center;
+}
+.cardContainer img{
+    border-radius: 8px;
+    height: 20vh;
+    padding-bottom: 0vh;
+}
+.descContainer{
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.skillsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 15px;
+    gap: 5px;
+}
+.skillsContainer p{
+    font-size: 12px;
+    border: solid 2px gray;
+    border-radius: 50px;
+    padding: 1px 8px;
+    margin: 0;
+}
+.buttonContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 0.1em;
+}
+.buttonContainer button{
+    padding: .8rem;
+    border-radius: 2em;
+    font-family: "Poppins";
+    font-size: clamp(12px, 1.3vw, 15px);
+    font-weight: 600;
+    cursor: pointer;
+}
+.ghButton{
+    background-color: black;
+    color: white;
+}
+.liveButton{
+    background-color: white;
+    color: black;
+    transition: all 300ms ease;
+}
+.liveButton:hover{
+    background-color: black;
+    color: white;
+}
+
