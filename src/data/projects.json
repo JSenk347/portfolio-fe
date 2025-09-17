@@ -1,7 +1,7 @@
 [
     {
         "project-name": "Portfolio",
-        "image": "site.png",
+        "image": "site.webp",
         "gh-repo": "portfolio-fe",
         "live-url": "https://portfolio-fe-liart.vercel.app/",
         "skills": [
@@ -11,7 +11,7 @@
     },
     {
         "project-name":"Album Picker",
-        "image": "albumPicker.png",
+        "image": "albumPicker.webp",
         "gh-repo": "album-picker",
         "live-url": "https://album-picker-ten.vercel.app/",
         "skills": [
