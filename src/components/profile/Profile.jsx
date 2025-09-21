@@ -3,7 +3,7 @@ import headShot from "../../assets/headShot.webp";
 
 const Profile = () => {
     const handleViewCV = () => {
-        window.open(`${import.meta.env.BASE_URL}/Jordan_Senko-Resume.pdf`, "_blank");
+        window.open(`${import.meta.env.BASE_URL}Jordan_Senko-Resume.pdf`, "_blank");
     };
 
     return (
