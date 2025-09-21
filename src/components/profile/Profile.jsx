@@ -3,7 +3,7 @@ import headShot from "../../assets/headShot.webp";
 
 const Profile = () => {
     const handleViewCV = () => {
-        window.open("/portfolio-fe/Jordan_Senko-Resume.pdf", "_blank");
+        window.open(`${import.meta.env.BASE_URL}/Jordan_Senko-Resume.pdf`, "_blank");
     };
 
     return (
@@ -31,7 +31,7 @@ const Profile = () => {
                     <a href='https://github.com/JSenk347' target="_blank">
                         <i className="fa-brands fa-github"></i>
                     </a>
-                    <a target="_blank" href='https://ca.linkedin.com/in/jordan-senko-a48067220'>
+                    <a href='https://ca.linkedin.com/in/jordan-senko-a48067220' target="_blank" >
                         <i className="fa-brands fa-linkedin"></i>
                     </a>
                 </div>
