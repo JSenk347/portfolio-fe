@@ -12,15 +12,6 @@ const Projects = ({ projects }) => {
             <div className={styles.carouselContainer}>
                 <ProjectCarousel projects={projectData} />
             </div>
-
-            {/* UP NEXT:
-                    - Design a project card
-                        - Figure out how a "sneaky window" would work after clicking a projects to view it  
-                    - Place the projectCards in a carasoul
-                    - Take the project data from a projects.json
-                        - See resources for reading a json file in JS
-                    - 
-                */}
         </div>
     );
 }
