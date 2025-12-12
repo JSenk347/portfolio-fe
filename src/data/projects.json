@@ -21,7 +21,7 @@
     },
     {
         "project-name":"MyShell",
-        "image": "albumPicker.webp",
+        "image": "shell.webp",
         "gh-repo": "homebrew-shell",
         "live-url": "",
         "skills": [
@@ -41,12 +41,12 @@
     },
     {
         "project-name":"Web Server",
-        "image": "jdClothing.webp",
+        "image": "webServer.webp",
         "gh-repo": "web-server",
         "live-url": "",
         "skills": [
             "C", "Makefile", "Multithreading", "Socket Programming"
         ],
-        "description": "Developed a lightweight, multi-threaded HTTP web server in C, implementing a thread pool architecture with synchronization (mutexes/condition variables) to handle concurrent client connections. Features include robust HTTP request parsing, static file serving with MIME type detection, standard error handling (200/400/404/500), and path traversal security, demonstrating core OS networking and concurrency concepts."
+        "description": "A lightweight, multi-threaded HTTP web server in C, implementing a thread pool architecture with synchronization (mutexes/condition variables) to handle concurrent client connections. Features include robust HTTP request parsing, static file serving with MIME type detection, standard error handling (200/400/404/500), and path traversal security, demonstrating core OS networking and concurrency concepts."
     }
 ]
