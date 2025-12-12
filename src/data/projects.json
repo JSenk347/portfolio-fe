@@ -17,6 +17,36 @@
         "skills": [
             "CSS", "HTML", "JavaScript","React", "React-Bootstrap", "API"
         ],
-        "description": "The focus of this project was to get comfortable with API's. I chose the Spotify API becuase I am listening to music whenever it is appropriate to do so, and someones even when it's not. To complete this project I learnt about standard API call practices and presenting the data from a JSON in a structured format"
+        "description": "The focus of this project was to get comfortable with API's. I chose the Spotify API because I am listening to music whenever it is appropriate to do so, and someones even when it's not. To complete this project I learnt about standard API call practices and presenting the data from a JSON in a structured format"
+    },
+    {
+        "project-name":"MyShell",
+        "image": "albumPicker.webp",
+        "gh-repo": "homebrew-shell",
+        "live-url": "",
+        "skills": [
+            "C", "Linux", "Makefile"
+        ],
+        "description": "MyShell is a custom-built, interactive command-line interpreter (shell) for Linux. Developed from scratch in C, this project demonstrates a deep understanding of operating systems concepts, including process control, file descriptor manipulation, and memory management. Developed for MRU's COMP 3659 (Operating Systems) class."
+    },
+    {
+        "project-name":"JDClothing",
+        "image": "jdClothing.webp",
+        "gh-repo": "clothing-store",
+        "live-url": "https://jsenk347.github.io/clothing-store/",
+        "skills": [
+            "JavaScript", "Tailwind CSS", "REST API's"
+        ],
+        "description": "This Single-Page Application (SPA) is a responsive e-commerce storefront for COMP 3612, built with vanilla JavaScript and Tailwind CSS. It features dynamic routing, product filtering, and a persistent shopping cart using LocalStorage, all without external JS frameworks. Data is efficiently fetched from a REST API and cached locally. The minimalist design uses semantic HTML5 and templates for clean, modular code."
+    },
+    {
+        "project-name":"Web Server",
+        "image": "jdClothing.webp",
+        "gh-repo": "web-server",
+        "live-url": "",
+        "skills": [
+            "C", "Makefile", "Multithreading", "Socket Programming"
+        ],
+        "description": "Developed a lightweight, multi-threaded HTTP web server in C, implementing a thread pool architecture with synchronization (mutexes/condition variables) to handle concurrent client connections. Features include robust HTTP request parsing, static file serving with MIME type detection, standard error handling (200/400/404/500), and path traversal security, demonstrating core OS networking and concurrency concepts."
     }
 ]
