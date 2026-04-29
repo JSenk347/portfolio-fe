@@ -2,7 +2,7 @@ import ProjectCarousel from "./project-carousel/ProjectCarousel.jsx"
 import styles from "./Projects.module.css"
 import projectData from "../../data/projects.json"
 
-const Projects = ({ projects }) => {
+const Projects = () => {
     return (
         <div className={styles.projectsContainer}>
             <div className={styles.headerContainer}>

@@ -1,19 +1,17 @@
 .contactContainer{
-    height: 50vh;
-    padding-top: 8vh;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
 }
 .headerContainer {
-    height: 20vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     justify-content: center;
     font-size: clamp(25px, 2.5vw, 40px);
+    padding-bottom: 2rem;
 }
 .headerContainer h1{
     margin: 0;

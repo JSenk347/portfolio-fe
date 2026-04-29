@@ -26,29 +26,7 @@
 }
 /*Grid - E*/
 
-/* Flex Wrap - S
-.skillsContainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    padding: 15px;
-    padding-bottom: 20px;
-    gap: 2rem;
-}
-
-
-.skill {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    font-weight: 500;
-    min-width:15ch;
-    gap: 1rem;
-}
- Flex Wrap - E*/
-
-.skill li {
+.skill span {
     font-size: 20px;
 }
 
@@ -57,21 +35,21 @@
 }
 
 /* Tablet Styling */
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     .xpCardContainer {
         width: 100%;
     }
     .skill {
         min-width: 13ch;
     }
-    .skill li {
+    .skill span {
         font-size: 17px;
     }
 }
 
 /* Mobile-L Styling */
 @media (max-width: 425px) {
-    .skill li {
+    .skill span {
         font-size: 15px;
     }
 
@@ -96,7 +74,7 @@
         min-width: 30vw;
     }
 
-    .skill li {
+    .skill span {
         font-size: 12px;
     }
 

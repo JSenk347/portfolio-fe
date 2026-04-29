@@ -104,12 +104,7 @@
 }
 .hamburgerIcon span:first-child{
   transform: none;
-}
-.hamburgerIcon span:first-child{
   opacity: 1;
-}
-.hamburgerIcon span:first-child{
-  transform: none;
 }
 @media (max-width: 768px){
   .desktopNav{

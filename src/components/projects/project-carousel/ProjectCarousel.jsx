@@ -10,12 +10,6 @@ const ProjectCarousel = ({projects}) => {
     // useEmblaCarousel enable PLUGINS passed as arguments in an array. Eg: [Autoplay()]
     const [emblaRef, emblaApi] = useEmblaCarousel({loop: true}, [Autoplay(), AutoHeight()]);
 
-    useEffect(() => {
-        if(emblaApi) {
-            console.log(emblaApi.slideNodes());
-        }
-    }, [emblaApi]);
-
     return(
         <div className={styles.carousel} ref={emblaRef}>
             <div className={styles.carouselContainer}> 

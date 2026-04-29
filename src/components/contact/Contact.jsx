@@ -9,13 +9,13 @@ function Contact() {
             </div>
             <div className={styles.linkContainer}>
                 <div className={styles.buttonContainer}>
-                    <i class="fa-solid fa-envelope"></i>
+                    <i className="fa-solid fa-envelope"></i>
                     <a href="mailto: jsenk347@mtroyal.ca">
                         jsenk347@mtroyal.ca
                     </a>
                 </div>
                 <div className={styles.buttonContainer}>
-                    <i class="fa-brands fa-linkedin"></i>
+                    <i className="fa-brands fa-linkedin"></i>
                     <a href="https://ca.linkedin.com/in/jordan-senko-a48067220" target="_blank">
                         Linkedin
                     </a>

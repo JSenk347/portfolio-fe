@@ -31,11 +31,9 @@ const ProjectCard = (props) => {
                 <p>{props.description}</p>
             </div>
             <div className={styles.skillsContainer}>
-                {props.skills.map((skill, index) => {
-                    return (
-                        <p>{skill}</p>
-                    );
-                })}
+                {props.skills.map((skill) => (
+                    <p key={skill}>{skill}</p>
+                ))}
             </div>
         </div>
     );

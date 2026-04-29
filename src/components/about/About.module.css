@@ -1,9 +1,7 @@
 .aboutContainer {
-    margin-left: 5rem;
-    margin-right: 5rem;
-    margin-top: 5rem;
-    margin-bottom: 0;
-    height: fit-content;
+    max-width: 900px;
+    width: calc(100% - 10rem);
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
 }
@@ -32,7 +30,7 @@
 }
 
 .aboutContainer img {
-    height: 40vw;
+    height: min(40vw, 480px);
     border-radius: 25px;
 }
 .cardContent p {

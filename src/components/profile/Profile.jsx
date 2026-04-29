@@ -3,8 +3,7 @@ import headShot from "../../assets/headShot.webp";
 
 const Profile = () => {
     const handleViewCV = () => {
-        window.open(`${window.location.hostname == "localhost" ? "/portfolio-fe/" : import.meta.env.BASE_URL}Jordan_Senko-Resume.pdf`, "_blank");
-        
+        window.open(`${import.meta.env.BASE_URL}Jordan_Senko-Resume.pdf`, "_blank");
     };
 
     return (
@@ -29,10 +28,10 @@ const Profile = () => {
                 </div>
 
                 <div className={styles.socialsContainer}>
-                    <a href='https://github.com/JSenk347' target="_blank">
+                    <a href='https://github.com/JSenk347' target="_blank" aria-label="GitHub profile">
                         <i className="fa-brands fa-github"></i>
                     </a>
-                    <a href='https://ca.linkedin.com/in/jordan-senko-a48067220' target="_blank" >
+                    <a href='https://ca.linkedin.com/in/jordan-senko-a48067220' target="_blank" aria-label="LinkedIn profile">
                         <i className="fa-brands fa-linkedin"></i>
                     </a>
                 </div>
